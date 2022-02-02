@@ -1,0 +1,109 @@
+body{
+    background:hsl(225, 100%, 94%);
+  }
+  
+  .card{
+    background-color:white;
+    width:24em;
+    margin-left:auto;
+    margin-right:auto;  
+    
+    /*---- Border Raiuds -----*/
+    border-radius:15px;
+    box-shadow: 10px 10px 5px hsl(213, 35%, 85%);
+  }
+  
+  .hero{
+    width:24em;  
+  }
+  
+  .a{  
+    max-width:100%; 
+    border-radius:15px 15px 0 0;
+    margin-bottom:1em;
+  }
+  
+  h2{
+    font-family:Red Hat Display;
+    font-weight: 900;
+    text-align:center;
+    color:hsl(223, 47%, 23%);
+  }
+  
+  h3,p,button{
+    font-family:Red Hat Display;
+  }
+  
+  .para{
+    text-align:center;
+    color: hsl(224, 23%, 55%);
+    margin-left:1em;
+    margin-right:1em;
+  }
+  
+  .plan{
+    display:flex;
+    background-color:hsl(225, 100%, 98%);
+    max-width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    border-radius:15px;
+    padding:.5em;
+  }
+  
+  .music{
+    margin-left:1em;
+    margin-top:1em;
+  }
+  .prem{
+    margin-left:1em;
+  }
+  a{
+    margin-left:1.5em;
+    margin-top:2em;
+    font-family:Red Hat Display;
+    font-weight:600;
+    
+  }
+  span{
+    display:flex;
+    flex-direction:column;
+  }
+  .price{
+   margin-top:0;
+   color:hsl(224, 23%, 55%);
+    
+  }
+  h3{
+    margin-bottom:0;
+    color:hsl(223, 47%, 23%);
+  }
+  
+  .one{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    padding:.7em 6em .7em 6em;
+    background-color:hsl(245, 75%, 52%);
+    color:white;
+    border-radius:9px;
+    /* offset-x | offset-y | blur-radius | color */
+    box-shadow: 0 15px 10px hsl(225, 100%, 94%);
+  }
+  .two{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    border:none;
+    background-color:white;
+    padding-bottom:2em;
+    color:hsl(224, 23%, 55%);
+    font-weight:600;
+  }
+  
+  
+  
+  
