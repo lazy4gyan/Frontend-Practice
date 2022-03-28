@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -16,18 +18,43 @@
 </head>
 <body>
 
-  Get insights that help your business grow.
+  <main class="card">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <article class="card-details">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+      <h1 class="card-details__heading">Get <span class="card-details__highlight">insights</span> that help your business grow.</h1>
+
+      <p class="card-details__para">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.</p>
+
+      <section class="card-details__stat">
+        <div class="stat one">
+          <h2 class="stat-head">10k+</h2>
+          <p class="stat-detail">Companies</p>
+        </div>
+        
+        <div class="stat two">
+          <h2 class="stat-head">314</h2>
+          <p class="stat-detail">Templates</p>
+        </div>
+        
+        <div class="stat three">
+          <h2 class="stat-head">12M+</h2>
+          <p class="stat-detail">Queries</p>
+        </div>
+      </section>
+
+    </article>
+
+    <section class="card-hero">
+   <img src="https://github.com/lazy4gyan/Frontend-Practice/blob/main/stats-preview-card-component-main/images/image-header-desktop.jpg?raw=true" alt="Header image" class="card-hero__img">
+    </section>   
+
+  </main>  
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Madan Sinha (LazyGyan)</a>.
   </div>
 </body>
 </html>
